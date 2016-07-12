@@ -1,6 +1,6 @@
 {
   "name": "nutra-jspm",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "The \"nutra-jspm\" module is a jspm module-loader for \"N.U.T.R.A.\" unit test runner.",
   "main": "dist/nutra-jspm.js",
   "scripts": {
@@ -33,7 +33,9 @@
     "babel-cli": "^6.9.0",
     "babel-preset-es2016-node5": "^1.1.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "inline-source-map-comment": "^1.0.5"
+  },
   "peerDependencies": {
     "jspm": "^0.17.0"
   }
